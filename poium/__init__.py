@@ -17,30 +17,13 @@
 # specific language governing permissions and limitations
 # under the License.
 
-from .page_objects import PageObject
+from .poium import Page
 from .page_objects import PageElement
 from .page_objects import PageElements
-from .select import PageSelect
-from .wait import PageWait
+from .page_objects import PageSelect
+from .page_objects import PageWait
 
 
 __author__ = "fnngj"
 
-__version__ = "0.2.1"
-
-'''
-0.1 version update:
-* page object based on selenium.
-
-0.1.3 version update:
-* adding class PageSelect
-
-0.1.4 version update:
-* adding class PageWait
-
-0.1.5 version update:
-* new common mouse operations
-
-0.2.1 version update:
-* adding appium support
-'''
+__version__ = "0.3.2"
